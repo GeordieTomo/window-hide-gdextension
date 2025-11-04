@@ -1,0 +1,66 @@
+# SCons build files
+.scons_cache/
+.sconsign.dblite
+*.pyc
+
+# Compiled binaries
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Build output directories
+demo/bin/
+bin/
+build/
+
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# JetBrains IDEs (CLion, etc.)
+.idea/
+cmake-build-*/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Godot
+.godot/
+*.import
+*.translation
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
