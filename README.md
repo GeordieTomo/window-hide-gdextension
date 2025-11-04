@@ -15,7 +15,7 @@ A simple GDExtension for Godot 4.x that provides window hiding functionality on 
 ### 1. Clone godot-cpp
 
 ```bash
-cd window-hide-extension
+cd window-hide-gdextension
 git clone https://github.com/godotengine/godot-cpp.git
 cd godot-cpp
 git checkout 4.5  # Use the version matching your Godot version
@@ -42,7 +42,7 @@ This will take several minutes. The compiled libraries will be in `godot-cpp/bin
 
 **Debug build:**
 ```bash
-cd window-hide-extension
+cd window-hide-gdextension
 
 scons platform=windows target=template_debug
 ```
